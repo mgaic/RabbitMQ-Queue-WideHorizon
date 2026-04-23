@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "RabbitMQ Queue WideHorizon - 8H & 24H Stats Expander ",
+  "version": "1.0",
+ // Non-destructively add 8-hour and 24-hour statistics view options to RabbitMQ queue details.
+  "description": "为 RabbitMQ 队列详情无损增加 8小时 和 24小时 统计视图选项",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["http://*/#/*", "http://*/api/*", "http://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
