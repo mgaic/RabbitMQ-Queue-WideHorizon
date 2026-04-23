@@ -5,7 +5,7 @@
  // Non-destructively add 8-hour and 24-hour statistics view options to RabbitMQ queue details.
   "description": "为 RabbitMQ 队列详情无损增加 8小时 和 24小时 统计视图选项",
   "permissions": [],
-  "author": "chilly wei"  //https://github.com/mgaic/RabbitMQ-Queue-WideHorizon
+  "author": "chilly wei",  //https://github.com/mgaic/RabbitMQ-Queue-WideHorizon
   "content_scripts": [
     {
       "matches": ["http://*/#/*", "http://*/api/*", "http://*/*"],
